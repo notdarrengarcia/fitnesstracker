@@ -1,0 +1,27 @@
+{
+  "name": "fitnesstracker",
+  "version": "1.0.0",
+  "description": "ways to track workouts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notdarrengarcia/fitnesstracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/notdarrengarcia/fitnesstracker/issues"
+  },
+  "homepage": "https://github.com/notdarrengarcia/fitnesstracker#readme"
+}
